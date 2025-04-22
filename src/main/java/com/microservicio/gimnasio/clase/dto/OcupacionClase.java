@@ -13,36 +13,8 @@ public class OcupacionClase {
     private int ocupacionActual;
     private LocalDateTime hora;
 
-    public OcupacionClase(String claseId, int ocupacionActual, LocalDateTime hora) {
-        this.claseId = claseId;
-        this.ocupacionActual = ocupacionActual;
-        this.hora = hora;
-    }
 
-    public OcupacionClase() {
-    }
+    public OcupacionClase(String claseId, int ocupacionActual, LocalDateTime now) {
 
-    public String getClaseId() {
-        return claseId;
-    }
-
-    public void setClaseId(String claseId) {
-        this.claseId = claseId;
-    }
-
-    public int getOcupacionActual() {
-        return ocupacionActual;
-    }
-
-    public void setOcupacionActual(int ocupacionActual) {
-        this.ocupacionActual = ocupacionActual;
-    }
-
-    public LocalDateTime getHora() {
-        return hora;
-    }
-
-    public void setHora(LocalDateTime hora) {
-        this.hora = hora;
     }
 }
